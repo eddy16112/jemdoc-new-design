@@ -1,9 +1,114 @@
-# jemdoc: menu{MENU}{index.html}
+### jemdoc: menu{MENU}{profile.html}
 
 ~~~
-{}{img_left}{./images/banner.png}{profile pic}{100%}{}{https://github.com/szl2/jemdoc-new-design}
+{}{img_left}{./images/profile.png}{profile pic}{200px}{200px}{}
+= Wei Wu \n
+=== [https://www.lanl.gov/org/ddste/aldsc/computer-computational-statistical-sciences/applied-computer-science/index.php Applied Computer Science Group], [https://www.lanl.gov/org/ddste/aldsc/computer-computational-statistical-sciences/index.php CCS Division]\n
+Wei Wu is a Research Scientist in the Programming Model Team of the [https://www.lanl.gov/ Los Alamos National Laboratory] since June 2017. He received his Ph.D. degree from the [https://www.utk.edu/ University of Tennessee], under the supervision of [http://www.netlib.org/utk/people/JackDongarra/ Dr. Jack Dongarra] and [http://icl.cs.utk.edu/~bosilca/ Dr. George Bosilca] in 2017. He also worked as a research intern at th AMD Research and the Oak Ridge National Laboratory.
+
+His research interests lie in high performance computing (HPC), especially in programming models and runtime systems for large scale heterogeneous systems. He has published in major HPC conferences and journals, including SC, ICS, PPoPP, IPDPS, HPDC, TPDS, etc.  
 ~~~
 
-~~~
-{}{img_left}{./images/info.png}{info pic}{100%}{}{}
-~~~
+== Contact
+- Email: wwu at lanl.gov (If your email server is in China, please email me at wwu12 at vols.utk.edu)
+- Office: TA 03-2011-204B
+- Mail: PO Box 1663, MS B287, Los Alamos National Laboratory, Los Alamos, NM, 87545
+
+== Research Interests
+- High Performance Computing
+- Distributed and Parallel Programming Systems/Models
+- Performance Analysis and Benchmarks
+- High Performance Machine Learning
+
+== Services
+- Technical Program Committee: SC'21, SC'20, CLUSTER'20, HPCC'20, VECPAR'18
+- Reviewer: JPDC'20, JPDC'19, JPDC'18, Parallel Computing'21, ICCS'18, Euro-Par'14
+
+== Projects/Software
+*Distributed and Parallel Programming System*
+- [https://legion.stanford.edu/ Legion]: a data-centric parallel programming system for writing portable high performance programs targeted at distributed heterogeneous architectures. *Funded by DOE ECP. Recipient of R&D 100 Award in 2020.*
+- [http://icl.utk.edu/parsec/ PaRSEC]: a distributed data-flow programming system for heterogeneous systems. *Funded by DOE ECP.*
+- [https://www.open-mpi.org/ Open MPI]: a high performance message passing library. *Funded by DOE ECP.*
+
+*Machine Learning Framework*
+- [https://flexflow.ai/ FlexFlow]: a distributed deep learning framework that accelerates distributed DNN training by auto-matically discovering fast parallelization strategies.
+- SuperNeuron: a distributed deep learning framework, providing automatic heterogeneous memory offloading for extremely large batch size trainings, and gradients compression to reduce communication cost of distributed training.
+
+*HPC Benchmark*
+- [https://github.com/StanfordLegion/task-bench/ Task Bench]: a configurable benchmark for evaluating the efficiency and performance of parallel and distributed programming systems.
+
+*Multi-Physics*
+- [https://laristra.github.io/flecsi/ FleCSI]: a programming framework designed to support multi-physics application development.
+
+*Linear Algebra*
+- [https://github.com/linnanwang/BLASX/ BLASX]: a level-3 BLAS library targeted for heterogeneous machines, an alternative of NVIDIA cuBLAS-XT. 
+- [http://icl.utk.edu/dplasma/ DPLASMA]: a state-of-the-art dense linear algebra library for distributed heterogeneous systems, a replacement of ScaLAPACK.
+
+== Selected Publications (Full List: [https://scholar.google.com/citations?user=PCCajlEAAAAJ&hl=en/ Google Scholar])
+*\[CLUSTER'20\]* X. Luo, *W. Wu\**, G. Bosilca, Y. Pei, Q. Cao, T. Patinyasakdikul, D. Zhong, J. Dongarra, 
+“HAN: a Hierarchical AutotuNed Collective Communication Framework." 
+In Proceedings of IEEE International Conference on Cluster Computing, 2020, Acceptance rate: 32/132, *Best Paper Award*
+
+*\[CLUSTER'20\]* Q. Cao, G. Bosilca, *W. Wu*, D. Zhong, A. Bouteiller, J. Dongarra, 
+“Flexible Data Redistribution in a Task-Based Runtime System." 
+In Proceedings of IEEE International Conference on Cluster Computing, 2020, Acceptance rate: 32/132
+
+*\[TPDS\]* T. Geng, A. Li, T. Wang, C. Wu, C. Yang, *W. Wu*, M. Herbordt. 
+“O3BNN-R: An Out-Of-Order Architecture for High-Performance and Regularized BNN Inference”
+In Proceedings of IEEE Transactions on Parallel and Distributed Systems, 2020
+
+*\[SC'20\]* E. Slaughter\*, *W. Wu\**, Y. Fu, L. Brandenburg, N. Garcia, W. Kautz, E. Marx, K. Morris, W. Lee, Q. Cao, G. Bosilca, S. Mirchandaney, S. Treichler, P. McCormick, A. Aiken.
+“Task Bench: A Parameterized Benchmark for Evaluating Parallel Runtime Performance”.
+In Proceedings of the International Conference for High Performance Computing, Networking, Storage, and Analysis, 2020, Acceptance rate: 68/380
+
+*\[HPDC'20\]* L. Wang, *W. Wu\**, J. Zhang, H. Liu, G. Bosilca, M. Herlihy, R. Fonseca. 
+"FFT-based Gradient Sparsification in the Distributed Training of Deep Neural Networks".
+In Proceedings of ACM International Symposium on High-Performance Parallel and Distributed Computing, 2020, Acceptance rate: 16/71
+
+*\[ICS'19\]* T. Geng, T. Wang, C. Wu, C. Yang, *W. Wu*, A. Li, M. Herbordt.
+“O3BNN: An Out-Of-Order Architecture for High-Performance Binarized Neural Network Inference with Fine-Grained Pruning”.
+In Proceedings of the ACM International Conference on Supercomputing, 2019, Acceptance rate: 45/193
+
+*\[HPDC'18\]* X. Luo, *W. Wu\**, G. Bosilca, T. Patinyasakdikul, J. Dongarra, L. Wang.
+“ADAPT: An Event-based Adaptive Collective Communication Framework”. 
+In Proceedings of ACM International Symposium on High-Performance Parallel and Distributed Computing, 2018, Acceptance rate: 22/121, (CCF B)
+
+*\[PPoPP'18\]* L. Wang, J. Ye, Y. Zhao, *W. Wu*, A. Li, SL. Song, Z. Xu, T. Kraska.
+“SuperNeurons: Dynamic GPU Memory Management for Training Deep Neural Networks”.
+In Proceedings of ACM SIGPLAN Symposium on Principles and Practice of Parallel, 2018, Acceptance rate: 113/461
+
+*\[MM'17 Workshop\]* Y. Zhao, L. Wang, *W. Wu*, G. Bosilca, R. Vuduc, J. Ye, W. Tang, Z. Xu.
+“Efficient Communications in Large Scale Neural Networks”. 
+In Proceedings of the on Thematic Workshops of ACM Multimedia, 2017
+
+*\[ICCS'17\]* D. Wang, Y. Pei, O. Hermandez, *W. Wu*, Z. Yao, Y. Kim, M. Wolfe, R. Kitchen.
+“Compiler technologies for understanding legacy scientific code: A case study on an ACME land module”. 
+In Proceedings of International Conference on Computational Science, 2017, Acceptance rate: 74/265
+
+*\[ICCS'17\]* Y. Xu, D. Wang, T. Janjusic, *W. Wu*, Y. Pei, Z. Yao.
+“A Web-based Visual Analytic Framework for Understanding Large-scale Environmental Models: A Use Case for The Community Land Model”, 
+In Proceedings of International Conference on Computational Science, 2017, Acceptance rate: 74/265
+
+*\[HPDC'16\]* *W. Wu*, G. Bosilca, R. vandeVaart, S. Jeaugey, J. Dongarra. 
+“GPU-Aware Non-contiguous Data Movement in Open MPI”, 
+In Proceedings of ACM International Symposium on High-Performance Parallel and Distributed Computing, 2016, Acceptance rate: 20/129
+
+*\[ICS'16\]* L. Wang, *W. Wu*, J. Xiao, Y. Yang.
+“BLASX: A High Performance Level-3 BLAS Library for Heterogeneous Multi-GPU Computing”. 
+In Proceedings of the ACM International Conference on Supercomputing, 2016, Acceptance rate: 43/178
+
+*\[GPGPU'16\]* S. Puthoor, A. Aji, S. Che, M. Daga, *W. Wu*, B. Beckmann, G. Rodgers.
+“Implementing Directed Acyclic Graphs with the Heterogeneous System Architecture”.
+In Proceedings of the 9th Annual Workshop on General Purpose Processing using Graphics Processing Unit, 2016
+
+*\[IPDPS'15\]* *W. Wu*, A. Bouteiller, G. Bosilca, M. Faverge, J. Dongarra.
+"Hierarchical DAG Scheduling for Hybrid Distributed Systems". 
+In Proceedings of IEEE International Parallel and Distributed Processing Symposium, 2015, Acceptance rate: 108/496
+
+== Awards
+- R&D 100, 2020
+- HPDC NSF Travel Grant, ACM, 2016
+- IPDPS NSF Travel Grant, IEEE, 2015
+
+== Links
+[http://www.icl.utk.edu ICL@UTK]
