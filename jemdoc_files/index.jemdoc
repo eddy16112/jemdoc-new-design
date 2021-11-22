@@ -45,6 +45,10 @@ His research interests lie in high performance computing (HPC), especially in pr
 - [http://icl.utk.edu/dplasma/ DPLASMA]: a state-of-the-art dense linear algebra library for distributed heterogeneous systems, a replacement of ScaLAPACK.
 
 == Selected Publications (Full List: [https://scholar.google.com/citations?user=PCCajlEAAAAJ&hl=en/ Google Scholar])
+*\[TPDS\]* Q. Cao, G. Bosilca, N, Losada, *W. Wu*, D. Zhong, J. Dongarra, 
+“Evaluating Data Redistribution in PaRSEC." 
+In Proceedings of IEEE Transactions on Parallel and Distributed Systems, 2021
+
 *\[CLUSTER'20\]* X. Luo, *W. Wu\**, G. Bosilca, Y. Pei, Q. Cao, T. Patinyasakdikul, D. Zhong, J. Dongarra, 
 “HAN: a Hierarchical AutotuNed Collective Communication Framework." 
 In Proceedings of IEEE International Conference on Cluster Computing, 2020, Acceptance rate: 32/132, *Best Paper Award*
