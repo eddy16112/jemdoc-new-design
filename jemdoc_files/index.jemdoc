@@ -3,16 +3,15 @@
 ~~~
 {}{img_left}{./images/profile.png}{profile pic}{200px}{200px}{}
 = Wei Wu \n
-=== [https://www.lanl.gov/org/ddste/aldsc/computer-computational-statistical-sciences/applied-computer-science/index.php Applied Computer Science Group], [https://www.lanl.gov/org/ddste/aldsc/computer-computational-statistical-sciences/index.php CCS Division]\n
-Wei Wu is a Research Scientist in the Programming Model Team of the [https://www.lanl.gov/ Los Alamos National Laboratory] since June 2017. He received his Ph.D. degree from the [https://www.utk.edu/ University of Tennessee], under the supervision of [http://www.netlib.org/utk/people/JackDongarra/ Dr. Jack Dongarra] and [http://icl.cs.utk.edu/~bosilca/ Dr. George Bosilca] in 2017. He also worked as a research intern at th AMD Research and the Oak Ridge National Laboratory.
+Wei Wu is a Senior Software Engineer at NVIDIA, working on the [https://legion.stanford.edu/ Legion] Programming System. Prior joinning NVIDIA, 
+He was a Research Scientist in the Programming Model Team of the [https://www.lanl.gov/ Los Alamos National Laboratory] from June 2017 to March 2022. He received his Ph.D. degree from the [https://www.utk.edu/ University of Tennessee], under the supervision of [http://www.netlib.org/utk/people/JackDongarra/ Dr. Jack Dongarra] and [http://icl.cs.utk.edu/~bosilca/ Dr. George Bosilca] in 2017. He also worked as a research intern at th AMD Research and the Oak Ridge National Laboratory.
 
 His research interests lie in high performance computing (HPC), especially in programming models and runtime systems for large scale heterogeneous systems. He has published in major HPC conferences and journals, including SC, ICS, PPoPP, IPDPS, HPDC, TPDS, etc.  
 ~~~
 
 == Contact
-- Email: wwu at lanl.gov (If your email server is in China, please email me at wwu12 at vols.utk.edu)
-- Office: TA 03-2011-204B
-- Mail: PO Box 1663, MS B287, Los Alamos National Laboratory, Los Alamos, NM, 87545
+- Email: wwu at nvidia.com
+- Office: Santa Clara, CA
 
 == Research Interests
 - High Performance Computing
@@ -22,7 +21,7 @@ His research interests lie in high performance computing (HPC), especially in pr
 
 == Services
 - Review Board: TPDS(2021-2023)
-- Technical Program Committee: SC'21, SC'20, CLUSTER'20, HPCC'20, VECPAR'18
+- Technical Program Committee: HiPC'22 SC'21, SC'20, CLUSTER'20, HPCC'20, VECPAR'18
 - Reviewer: JPDC'20, JPDC'19, JPDC'18, Parallel Computing'21, ICCS'18, Euro-Par'14
 
 == Projects/Software
