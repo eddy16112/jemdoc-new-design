@@ -10,7 +10,7 @@ His research interests lie in high performance computing (HPC), especially in pr
 ~~~
 
 == Contact
-- Email: wwu at nvidia.com
+- Email: weiwu at nvidia.com
 - Office: Santa Clara, CA
 
 == Research Interests
@@ -45,20 +45,24 @@ His research interests lie in high performance computing (HPC), especially in pr
 - [http://icl.utk.edu/dplasma/ DPLASMA]: a state-of-the-art dense linear algebra library for distributed heterogeneous systems, a replacement of ScaLAPACK.
 
 == Selected Publications (Full List: [https://scholar.google.com/citations?user=PCCajlEAAAAJ&hl=en/ Google Scholar])
-*\[TPDS\]* Q. Cao, G. Bosilca, N, Losada, *W. Wu*, D. Zhong, J. Dongarra, 
-“Evaluating Data Redistribution in PaRSEC." 
+*\[OSDI'22\]* Z. Jia, C. Unger, *W. Wu*, S. Lin, M. Baines, C. Narvaez, V. Ramakrishnaiah, N. Prajapati, P. McCormick, J. Mohd-Yusof, X. Luo, D. Mudigere, J. Park, M. Smelyanskiy, A. Aiken.
+“Unity: Accelerating DNN Training Through Joint Optimization of Algebraic Transformations and Parallelization". 
+In Proceedings of USENIX Symposium on Operating Systems Design and Implementation, 2022, Acceptance rate: 49/253
+
+*\[TPDS\]* X. Luo, *W. Wu\**, G. Bosilca, Y. Pei, Q. Cao, T. Patinyasakdikul, D. Zhong, J. Dongarra.
+“Evaluating Data Redistribution in PaRSEC". 
 In Proceedings of IEEE Transactions on Parallel and Distributed Systems, 2021
 
-*\[CLUSTER'20\]* X. Luo, *W. Wu\**, G. Bosilca, Y. Pei, Q. Cao, T. Patinyasakdikul, D. Zhong, J. Dongarra, 
-“HAN: a Hierarchical AutotuNed Collective Communication Framework." 
+*\[CLUSTER'20\]* X. Luo, *W. Wu\**, G. Bosilca, Y. Pei, Q. Cao, T. Patinyasakdikul, D. Zhong, J. Dongarra. 
+“HAN: a Hierarchical AutotuNed Collective Communication Framewor". 
 In Proceedings of IEEE International Conference on Cluster Computing, 2020, Acceptance rate: 32/132, *Best Paper Award*
 
-*\[CLUSTER'20\]* Q. Cao, G. Bosilca, *W. Wu*, D. Zhong, A. Bouteiller, J. Dongarra, 
-“Flexible Data Redistribution in a Task-Based Runtime System." 
+*\[CLUSTER'20\]* Q. Cao, G. Bosilca, *W. Wu*, D. Zhong, A. Bouteiller, J. Dongarra. 
+“Flexible Data Redistribution in a Task-Based Runtime System". 
 In Proceedings of IEEE International Conference on Cluster Computing, 2020, Acceptance rate: 32/132
 
 *\[TPDS\]* T. Geng, A. Li, T. Wang, C. Wu, C. Yang, *W. Wu*, M. Herbordt. 
-“O3BNN-R: An Out-Of-Order Architecture for High-Performance and Regularized BNN Inference”
+“O3BNN-R: An Out-Of-Order Architecture for High-Performance and Regularized BNN Inference”,
 In Proceedings of IEEE Transactions on Parallel and Distributed Systems, 2020
 
 *\[SC'20\]* E. Slaughter\*, *W. Wu\**, Y. Fu, L. Brandenburg, N. Garcia, W. Kautz, E. Marx, K. Morris, W. Lee, Q. Cao, G. Bosilca, S. Mirchandaney, S. Treichler, P. McCormick, A. Aiken.
