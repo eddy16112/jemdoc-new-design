@@ -54,7 +54,7 @@ In Proceedings of USENIX Symposium on Operating Systems Design and Implementatio
 In Proceedings of IEEE Transactions on Parallel and Distributed Systems, 2021
 
 *\[CLUSTER'20\]* X. Luo, *W. Wu\**, G. Bosilca, Y. Pei, Q. Cao, T. Patinyasakdikul, D. Zhong, J. Dongarra. 
-“HAN: a Hierarchical AutotuNed Collective Communication Framewor". 
+“HAN: a Hierarchical AutotuNed Collective Communication Framework". 
 In Proceedings of IEEE International Conference on Cluster Computing, 2020, Acceptance rate: 32/132, *Best Paper Award*
 
 *\[CLUSTER'20\]* Q. Cao, G. Bosilca, *W. Wu*, D. Zhong, A. Bouteiller, J. Dongarra. 
