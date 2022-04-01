@@ -4,7 +4,7 @@
 {}{img_left}{./images/profile.png}{profile pic}{200px}{200px}{}
 = Wei Wu \n
 Wei Wu is a Senior Software Engineer at NVIDIA, working on the [https://legion.stanford.edu/ Legion] Programming System. Prior to joining NVIDIA, 
-He was a Research Scientist in the Programming Model Team of the [https://www.lanl.gov/ Los Alamos National Laboratory] from June 2017 to March 2022. He received his Ph.D. degree from the [https://www.utk.edu/ University of Tennessee], under the supervision of [http://www.netlib.org/utk/people/JackDongarra/ Dr. Jack Dongarra] and [http://icl.cs.utk.edu/~bosilca/ Dr. George Bosilca] in 2017. He also worked as a research intern at th AMD Research and the Oak Ridge National Laboratory.
+He was a Research Scientist in the Programming Model Team of the [https://www.lanl.gov/ Los Alamos National Laboratory] from June 2017 to March 2022. He received his Ph.D. degree from the [https://www.utk.edu/ University of Tennessee], under the supervision of [http://www.netlib.org/utk/people/JackDongarra/ Dr. Jack Dongarra] and [http://icl.cs.utk.edu/~bosilca/ Dr. George Bosilca] in 2017. He also worked as a research intern at the AMD Research and the Oak Ridge National Laboratory.
 
 His research interests lie in high performance computing (HPC), especially in programming models and runtime systems for large scale heterogeneous systems. He has published in major HPC conferences and journals, including SC, ICS, PPoPP, IPDPS, HPDC, TPDS, etc.  
 ~~~
