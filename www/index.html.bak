@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="icon" href="./images/icon.png">
+<link rel="stylesheet" href="main.css" type="text/css" />
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--- <title></title> --->
+<title>Wei Wu@NVIDIA</title>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<div id="main-container">
+<div id="header-container">
+<div id="header">
+<div id="main">
+<button class="openbtn" onclick="openNav()">☰</button>
+</div>
+</div>
+</div>
+<div id="layout-content"> <!-- nomenu  -->
+<div id="text-img-container"><div id="img-container">
+<img src="./images/profile.png" alt="profile pic" width="200px" height="200px" /></div>
+<div id="text-container"><h1>Wei Wu <br /></h1>
+<p>Wei Wu is a Senior System Software Engineer at NVIDIA, working on the <a href="https://legion.stanford.edu/" target=&ldquo;blank&rdquo;>Legion</a> Programming System. Prior to joining NVIDIA, 
+He was a Research Scientist in the Programming Model Team of the <a href="https://www.lanl.gov/" target=&ldquo;blank&rdquo;>Los Alamos National Laboratory</a> from June 2017 to March 2022. He received his Ph.D. degree from the <a href="https://www.utk.edu/" target=&ldquo;blank&rdquo;>University of Tennessee</a>, under the supervision of <a href="http://www.netlib.org/utk/people/JackDongarra/" target=&ldquo;blank&rdquo;>Dr. Jack Dongarra</a> and <a href="http://icl.cs.utk.edu/~bosilca/" target=&ldquo;blank&rdquo;>Dr. George Bosilca</a> in 2017. He also worked as a research intern at the AMD Research and the Oak Ridge National Laboratory.</p>
+<p>His research interests lie in high performance computing (HPC), especially in programming models and runtime systems for large scale heterogeneous systems. He has published in major HPC conferences and journals, including SC, ICS, PPoPP, IPDPS, HPDC, TPDS, etc.  </p>
+</div></div>
+<h2>Contact</h2>
+<ul>
+<li><p>Email: weiwu at nvidia.com</p>
+</li>
+<li><p>Office: Santa Clara, CA</p>
+</li>
+</ul>
+<h2>Research Interests</h2>
+<ul>
+<li><p>High Performance Computing</p>
+</li>
+<li><p>Distributed and Parallel Programming Systems/Models</p>
+</li>
+<li><p>Performance Analysis and Benchmarks</p>
+</li>
+<li><p>High Performance Machine Learning</p>
+</li>
+</ul>
+<h2>Services</h2>
+<ul>
+<li><p>Review Board: TPDS(2021-current)</p>
+</li>
+<li><p>Technical Program Committee: MLSys&rsquo;26, HiPC&rsquo;22 SC&rsquo;21, SC&rsquo;20, CLUSTER&rsquo;20, HPCC&rsquo;20, VECPAR&rsquo;18</p>
+</li>
+<li><p>Reviewer: JPDC&rsquo;20, JPDC&rsquo;19, JPDC&rsquo;18, Parallel Computing&rsquo;21, ICCS&rsquo;18, Euro-Par&rsquo;14</p>
+</li>
+</ul>
+<h2>Open Source Projects/Software</h2>
+<p><b>Distributed and Parallel Programming System</b></p>
+<ul>
+<li><p><a href="https://legion.stanford.edu/" target=&ldquo;blank&rdquo;>Realm</a>: an event-based runtime, which provides a portable abstraction layer that facilitates the construction of higher-level programming systems on a diverse range of machines. Realm abstracts the details of many kinds of hardware so there are simple primitives for creating work, moving data, and performing synchronization. All these primitives are made inherently asynchronous and composable through a universal event system.</p>
+</li>
+<li><p><a href="https://legion.stanford.edu/" target=&ldquo;blank&rdquo;>Legion</a>: a data-centric programming system enabling declarative data control, auto-parallelism, and hardware-agnostic deployment for distributed heterogeneous systems. <b>Funded by DOE ECP. Recipient of R&amp;D 100 Award in 2020.</b></p>
+</li>
+<li><p><a href="http://icl.utk.edu/parsec/" target=&ldquo;blank&rdquo;>PaRSEC</a>: a distributed data-flow programming system for heterogeneous systems. <b>Funded by DOE ECP.</b></p>
+</li>
+<li><p><a href="https://www.open-mpi.org/" target=&ldquo;blank&rdquo;>Open MPI</a>: a high performance message passing library. <b>Funded by DOE ECP.</b></p>
+</li>
+</ul>
+<p><b>Machine Learning Framework</b></p>
+<ul>
+<li><p><a href="https://flexflow.ai/" target=&ldquo;blank&rdquo;>FlexFlow</a>: a distributed deep learning framework that accelerates distributed DNN training by auto-matically discovering fast parallelization strategies.</p>
+</li>
+<li><p>SuperNeuron: a distributed deep learning framework, providing automatic heterogeneous memory offloading for extremely large batch size trainings, and gradients compression to reduce communication cost of distributed training.</p>
+</li>
+</ul>
+<p><b>HPC Benchmark</b></p>
+<ul>
+<li><p><a href="https://github.com/StanfordLegion/task-bench/" target=&ldquo;blank&rdquo;>Task Bench</a>: a configurable benchmark for evaluating the efficiency and performance of parallel and distributed programming systems.</p>
+</li>
+</ul>
+<p><b>Multi-Physics</b></p>
+<ul>
+<li><p><a href="https://laristra.github.io/flecsi/" target=&ldquo;blank&rdquo;>FleCSI</a>: a programming framework designed to support multi-physics application development.</p>
+</li>
+</ul>
+<p><b>Linear Algebra</b></p>
+<ul>
+<li><p><a href="https://github.com/linnanwang/BLASX/" target=&ldquo;blank&rdquo;>BLASX</a>: a level-3 BLAS library targeted for heterogeneous machines, an alternative of NVIDIA cuBLAS-XT. </p>
+</li>
+<li><p><a href="http://icl.utk.edu/dplasma/" target=&ldquo;blank&rdquo;>DPLASMA</a>: a state-of-the-art dense linear algebra library for distributed heterogeneous systems, a replacement of ScaLAPACK.</p>
+</li>
+</ul>
+<h2>Selected Publications (Full List: <a href="https://scholar.google.com/citations?user=PCCajlEAAAAJ&amp;hl=en/" target=&ldquo;blank&rdquo;>Google Scholar</a>)</h2>
+<p><b>[OSDI&rsquo;22]</b> Z. Jia, C. Unger, <b>W. Wu</b>, S. Lin, M. Baines, C. Narvaez, V. Ramakrishnaiah, N. Prajapati, P. McCormick, J. Mohd-Yusof, X. Luo, D. Mudigere, J. Park, M. Smelyanskiy, A. Aiken.
+“Unity: Accelerating DNN Training Through Joint Optimization of Algebraic Transformations and Parallelization". 
+In Proceedings of USENIX Symposium on Operating Systems Design and Implementation, 2022, Acceptance rate: 49/253</p>
+<p><b>[TPDS]</b> Q. Cao, G. Bosilca, N. Losada, <b>W Wu</b>, D. Zhong, J. Dongarra.
+“Evaluating Data Redistribution in PaRSEC". 
+In Proceedings of IEEE Transactions on Parallel and Distributed Systems, 2021</p>
+<p><b>[CLUSTER&rsquo;20]</b> X. Luo, <b>W. Wu*</b>, G. Bosilca, Y. Pei, Q. Cao, T. Patinyasakdikul, D. Zhong, J. Dongarra. 
+“HAN: a Hierarchical AutotuNed Collective Communication Framework". 
+In Proceedings of IEEE International Conference on Cluster Computing, 2020, Acceptance rate: 32/132, <b>Best Paper Award</b></p>
+<p><b>[CLUSTER&rsquo;20]</b> Q. Cao, G. Bosilca, <b>W. Wu</b>, D. Zhong, A. Bouteiller, J. Dongarra. 
+“Flexible Data Redistribution in a Task-Based Runtime System". 
+In Proceedings of IEEE International Conference on Cluster Computing, 2020, Acceptance rate: 32/132</p>
+<p><b>[TPDS]</b> T. Geng, A. Li, T. Wang, C. Wu, C. Yang, <b>W. Wu</b>, M. Herbordt. 
+“O3BNN-R: An Out-Of-Order Architecture for High-Performance and Regularized BNN Inference”,
+In Proceedings of IEEE Transactions on Parallel and Distributed Systems, 2020</p>
+<p><b>[SC&rsquo;20]</b> E. Slaughter*, <b>W. Wu*</b>, Y. Fu, L. Brandenburg, N. Garcia, W. Kautz, E. Marx, K. Morris, W. Lee, Q. Cao, G. Bosilca, S. Mirchandaney, S. Treichler, P. McCormick, A. Aiken.
+“Task Bench: A Parameterized Benchmark for Evaluating Parallel Runtime Performance”.
+In Proceedings of the International Conference for High Performance Computing, Networking, Storage, and Analysis, 2020, Acceptance rate: 68/380</p>
+<p><b>[HPDC&rsquo;20]</b> L. Wang, <b>W. Wu*</b>, J. Zhang, H. Liu, G. Bosilca, M. Herlihy, R. Fonseca. 
+&ldquo;FFT-based Gradient Sparsification in the Distributed Training of Deep Neural Networks&rdquo;.
+In Proceedings of ACM International Symposium on High-Performance Parallel and Distributed Computing, 2020, Acceptance rate: 16/71</p>
+<p><b>[ICS&rsquo;19]</b> T. Geng, T. Wang, C. Wu, C. Yang, <b>W. Wu</b>, A. Li, M. Herbordt.
+“O3BNN: An Out-Of-Order Architecture for High-Performance Binarized Neural Network Inference with Fine-Grained Pruning”.
+In Proceedings of the ACM International Conference on Supercomputing, 2019, Acceptance rate: 45/193</p>
+<p><b>[HPDC&rsquo;18]</b> X. Luo, <b>W. Wu*</b>, G. Bosilca, T. Patinyasakdikul, J. Dongarra, L. Wang.
+“ADAPT: An Event-based Adaptive Collective Communication Framework”. 
+In Proceedings of ACM International Symposium on High-Performance Parallel and Distributed Computing, 2018, Acceptance rate: 22/121, (CCF B)</p>
+<p><b>[PPoPP&rsquo;18]</b> L. Wang, J. Ye, Y. Zhao, <b>W. Wu</b>, A. Li, SL. Song, Z. Xu, T. Kraska.
+“SuperNeurons: Dynamic GPU Memory Management for Training Deep Neural Networks”.
+In Proceedings of ACM SIGPLAN Symposium on Principles and Practice of Parallel, 2018, Acceptance rate: 113/461</p>
+<p><b>[MM&rsquo;17 Workshop]</b> Y. Zhao, L. Wang, <b>W. Wu</b>, G. Bosilca, R. Vuduc, J. Ye, W. Tang, Z. Xu.
+“Efficient Communications in Large Scale Neural Networks”. 
+In Proceedings of the on Thematic Workshops of ACM Multimedia, 2017</p>
+<p><b>[ICCS&rsquo;17]</b> D. Wang, Y. Pei, O. Hermandez, <b>W. Wu</b>, Z. Yao, Y. Kim, M. Wolfe, R. Kitchen.
+“Compiler technologies for understanding legacy scientific code: A case study on an ACME land module”. 
+In Proceedings of International Conference on Computational Science, 2017, Acceptance rate: 74/265</p>
+<p><b>[ICCS&rsquo;17]</b> Y. Xu, D. Wang, T. Janjusic, <b>W. Wu</b>, Y. Pei, Z. Yao.
+“A Web-based Visual Analytic Framework for Understanding Large-scale Environmental Models: A Use Case for The Community Land Model”, 
+In Proceedings of International Conference on Computational Science, 2017, Acceptance rate: 74/265</p>
+<p><b>[HPDC&rsquo;16]</b> <b>W. Wu</b>, G. Bosilca, R. vandeVaart, S. Jeaugey, J. Dongarra. 
+“GPU-Aware Non-contiguous Data Movement in Open MPI”, 
+In Proceedings of ACM International Symposium on High-Performance Parallel and Distributed Computing, 2016, Acceptance rate: 20/129</p>
+<p><b>[ICS&rsquo;16]</b> L. Wang, <b>W. Wu</b>, J. Xiao, Y. Yang.
+“BLASX: A High Performance Level-3 BLAS Library for Heterogeneous Multi-GPU Computing”. 
+In Proceedings of the ACM International Conference on Supercomputing, 2016, Acceptance rate: 43/178</p>
+<p><b>[GPGPU&rsquo;16]</b> S. Puthoor, A. Aji, S. Che, M. Daga, <b>W. Wu</b>, B. Beckmann, G. Rodgers.
+“Implementing Directed Acyclic Graphs with the Heterogeneous System Architecture”.
+In Proceedings of the 9th Annual Workshop on General Purpose Processing using Graphics Processing Unit, 2016</p>
+<p><b>[IPDPS&rsquo;15]</b> <b>W. Wu</b>, A. Bouteiller, G. Bosilca, M. Faverge, J. Dongarra.
+&ldquo;Hierarchical DAG Scheduling for Hybrid Distributed Systems&rdquo;. 
+In Proceedings of IEEE International Parallel and Distributed Processing Symposium, 2015, Acceptance rate: 108/496</p>
+<h2>Awards</h2>
+<ul>
+<li><p>R&amp;D 100, 2020</p>
+</li>
+<li><p>HPDC NSF Travel Grant, ACM, 2016</p>
+</li>
+<li><p>IPDPS NSF Travel Grant, IEEE, 2015</p>
+</li>
+</ul>
+<h2>Links</h2>
+<p><a href="http://www.icl.utk.edu" target=&ldquo;blank&rdquo;>ICL@UTK</a></p>
+</div> <!-- <div id="layout-content"> -->
+<div id="footer-container">
+<div id="footer">
+<div id="footer-text">
+Last edited  on April 13<sup>th</sup> 2026  01:36PM (Time Zone: PDT). </br>
+</div> <!-- <div id="footer-text"> -->
+</div> <!-- <div id="footer"> -->
+</div> <!-- <div id="footer-container"> -->
+<div> <!-- nomenulastbit to counteract  <div id="layout">  -->
+</div> <!--- <div id="layout"> --->
+</div> <!--- <div id="main-container"> --->
+<script>
+function openNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "280px";
+        document.getElementById("layout-content-container").style.marginLeft = "280.8px";
+        document.getElementById("layout-content-container").style.position = "fixed";
+    }
+}
+function closeNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "0";
+        document.getElementById("layout-content-container").style.position = "static";
+        document.getElementById("layout-content-container").style.marginLeft = "0px";
+        setInterval(
+            function(){ location.reload() },
+            500
+        );
+    }
+}
+</script>
+</body>
+</html>
